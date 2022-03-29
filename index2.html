@@ -1,0 +1,1207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOCUMENT</title>
+    <meta name="description" content="ALL HTML5 tags DOCUMENT">
+    <meta name="keywords" content="HTML5, tags">
+    <meta name="author" content="easy">
+    <meta name="viewport"
+        content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="robots" content="none" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="api/main.css" />
+</head>
+
+<body class="p-4">
+    <header>
+        <nav>
+            <menu type="context" id="navmenu">
+                <span label="Home"> <a href="/">Home</a> </span>
+                <span label="Easy"> <a href="/easy.html">Easy</a> </span>
+                <span label="Texto"> <a href="/#textarea">Texto</a> </span>
+            </menu>
+        </nav>
+    </header>
+    <!-- SKIP -> Para navegação com o teclado, vai para o .container-fluid -->
+    <div id="skip" class="d-none"><a href="#content">Skip navigation</a></div>
+
+    <!-- Início top menu que é mostrado quando é ativado a navegação por teclado -->
+    <div class="keyboardNavMenu" id="keyboardNavMenu">
+        <span
+            data-tooltip="Esta funcionalidade permite navegar com o teclado. Para voltar a interagir com o menu rápido, carregue na tecla 'espaço'."
+            data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+        <a class="active" href="#marcio-playground" tabindex="1">Márcio</a>
+        <a href="#joao-playground" tabindex="1">João</a>
+        <a href="#pavlo-playground" tabindex="1">Pavlo</a>
+        <a href="#bruno-playground" tabindex="1">Bruno</a>
+        <a href="#anderson-playground" tabindex="1">Anderson</a>
+
+    </div>
+    <!-- FIM do top menu que é mostrado quando é ativado a navegação por teclado -->
+
+
+    <!-- MARCIO PLAYGROUND BEGIN -->
+    <div id="marcio-playground">
+        <h1>MÁRCIO</h1>
+        <div id="func-contraste">
+            <div class="row row-header">
+                <div class="container">
+                    <nav>
+                        <ul>
+                            <li><a href="#" data-contraste="0" title="Sem Contraste">Sem contraste</a></li>
+                            <li><a href="#" data-contraste="1" title="Contraste Claro">Contraste claro</a></li>
+                            <li><a href="#" data-contraste="2" title="Contraste Escuro">Contraste escuro</a></li>
+                            <li><a href="#" data-contraste="3" title="Alto Contraste">Alto Contraste</a></li>
+                            <li><a href="#" data-saturacao="less" title="Menos Saturação">Menos Saturação</a></li>
+                            <li><a href="#" data-saturacao="more" title="Mais Saturação">Mais Saturação</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row row-collors">
+                <div class="container white"><strong>Teste de contraste</strong></div>
+            </div>
+            <div class="row row-collors black">
+                <div class="container"><strong>Teste de contraste</strong></div>
+            </div>
+            <div class="row row-collors red">
+                <div class="container"><strong>Teste de contraste</strong></div>
+            </div>
+            <div class="row row-collors green">
+                <div class="container green"><strong>Teste de contraste</strong></div>
+            </div>
+            <div class="row row-collors blue">
+                <div class="container blue"><strong>Teste de contraste</strong></div>
+            </div>
+        </div>
+    </div>
+    <!-- MARCIO PLAYGROUND END -->
+    </div>
+
+    <!--
+    JOAO PLAYGROUND BEGIN
+-->
+    <div id="joao-playground">
+        <h1>JOÃO</h1>
+        <div class="col-12">teste</div>
+        <div id="joao" class="col-12 d-flex justify-content-center joao"></div>
+        <h1> Heading... </h1>
+        <div id="h1">teste H1 --- heading</div>
+
+        <!-- PARA MAIS CONTROLO, TALVEZ COLOCAR DENTRO DE UM DIV :) -->
+        <div id="joao_lista_ul" class="col-12 d-flex justify-content-center joao_lista_ul">
+
+        </div>
+
+
+        <div id="mudarLink">
+
+
+            <!--<button type="button" title="Esta funcionalidade evidencia todos os links presentes na página" id="realcaLink" style="width: 100px; height: 100px;">Sobressair Links</button><br>-->
+            <!--'Botão Funcionalidade -> realçar links '-->
+            <div class="btn_geral" id="btn_realcalink">
+                <div class="btn_particular">
+                    <!--Mensagem que aparece no icon de informação-->
+                    <div class="info">
+
+                        <span data-tooltip="Esta funcionalidade realça todos os links presentes na página"
+                            data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+                    </div>
+                    <!--Fim de mensagem que aparece no icon de informação-->
+                    <!--Visto a verde que aparece quando a funcionalidade está ativa-->
+                    <div class="check" id="realcaLinkCheck">
+                        <span>
+                            <img src="https://media.istockphoto.com/vectors/checkmark-icon-check-mark-vector-isolated-illustration-vector-id1205148147?k=20&m=1205148147&s=612x612&w=0&h=6WoITHTxFwIBVnfODxsh7wAzU3-AZFkg0YZ5U_8COqw="">
+
+       </span>
+    </div>
+<!--Fim do visto a verde que aparece quando a funcionalidade está ativa-->
+
+    </div>
+ 
+<!--Imagem do botão-->
+<div class=" btn_imagem">
+                            <img
+                                src="https://w7.pngwing.com/pngs/279/877/png-transparent-hyperlink-computer-icons-link-text-logo-number.png">
+                    </div>
+                    <!--Fim da imagem do botão-->
+                    <!--Texto da funcionalidade-->
+                    <div class="texto">
+                        Realçar Links
+                    </div>
+                    <!--Fim do texto da funcionalidade-->
+
+                </div>
+
+                <div class="VoicetoText">
+                    <div class="mt-4" id="div_language">
+                        <h2 class="mb-3">Idioma</h2>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <select class="form-select bg-secondary text-light" id="select_language"></select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <select class="form-select bg-secondary text-light mt-2" id="select_dialect"></select>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <h2 class="mt-4 ">Transcrição</h2>
+                    <div class="p-3" style="border: 1px solid gray; height: 300px; border-radius: 8px;">
+                        <span id="final"></span>
+                        <span id="interim" class="text-secondary"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <button type="button" class="btn btn-success btn-sm" id="start">Iniciar</button>
+                        </div>
+                        <div class="col-sm-2"><button type="button" class="btn btn-danger" id="stop">Parar</button>
+                        </div>
+                        <div class="col-sm-2"><button type="button" class="btn btn-primary" id="limpar">Limpar</button>
+                        </div>
+
+                    </div>
+
+
+
+                    <p id="status" class="lead mt-3 text-light" style="display: none">A vouvir ...</p>
+                </div>
+
+            </div>
+            <!--'Botão funcionalidade-> navegação por teclado '-->
+            <div class="btn_geral" id="btn_keyboardnav">
+                <div class="btn_particular">
+                    <!--Mensagem que aparece no icon de informação-->
+                    <div class="info">
+
+                        <span
+                            data-tooltip="Esta funcionalidade permite que o utilizador navegue na página através de teclado"
+                            data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+                    </div>
+                    <!--Fim de mensagem que aparece no icon de informação-->
+
+                    <!--Visto a verde que aparece quando a funcionalidade está ativa-->
+                    <div class="check" id="keyboardNavCheck">
+                        <span>
+                            <img src="https://media.istockphoto.com/vectors/checkmark-icon-check-mark-vector-isolated-illustration-vector-id1205148147?k=20&m=1205148147&s=612x612&w=0&h=6WoITHTxFwIBVnfODxsh7wAzU3-AZFkg0YZ5U_8COqw="">
+       </span>
+    </div>
+<!--Fim do visto a verde que aparece quando a funcionalidade está ativa-->
+    </div>
+ <!---  Voice to TEXT -->
+
+<br>
+<hr>
+
+    
+  
+
+<!--Imagem do botão-->
+<div class=" btn_imagem">
+                            <img
+                                src="https://w7.pngwing.com/pngs/279/877/png-transparent-hyperlink-computer-icons-link-text-logo-number.png">
+                    </div>
+                    <!--Fim da imagem do botão-->
+                    <!--Texto da funcionalidade-->
+                    <div class="texto">
+                        Navegação por Teclado
+                    </div>
+                    <!--Fim do texto da funcionalidade-->
+
+                </div>
+
+
+
+
+                <!--'Botão Funcionalidade -> muda de cor cabeçalho '-->
+                <div class="btn_geral" id="btn_mudaCorCabecalho">
+                    <div class="btn_particular">
+                        <!--Mensagem que aparece no icon de informação-->
+                        <div class="info">
+                            <span data-tooltip="Esta funcionalidade permite que o utilizador mude a cor dos cabeçalhos"
+                                data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+                        </div>
+                        <!--Fim de mensagem que aparece no icon de informação-->
+                        <!--Visto a verde que aparece quando a funcionalidade está ativa-->
+                        <div class="check" id="mudaCorCabecalho">
+                            <span>
+                                <img src="https://media.istockphoto.com/vectors/checkmark-icon-check-mark-vector-isolated-illustration-vector-id1205148147?k=20&m=1205148147&s=612x612&w=0&h=6WoITHTxFwIBVnfODxsh7wAzU3-AZFkg0YZ5U_8COqw="">
+       </span>
+    </div>
+ <!--Fim do visto a verde que aparece quando a funcionalidade está ativa-->
+
+
+    </div>
+ 
+<!--Imagem do botão
+<div class=" btn_imagem">
+                                <img
+                                    src="https://w7.pngwing.com/pngs/279/877/png-transparent-hyperlink-computer-icons-link-text-logo-number.png">
+                        </div>
+                        Fim da imagem do botão-->
+
+
+                        <!-- Início do teste das cores -->
+                        <div class="AdjustColorCabecalho" id="AdjustColorCabecalho">
+
+
+                            <div class="input-color">
+                                <!--<div class="color-box" style="background-color: #FF850A;"></div>
+     Replace "#FF850A" to change the color
+    <input type="button" value="red" id="red">
+    <input type="button" value="blue" id="blue">
+    <input type="button" value="green" id="green"> -->
+                            </div>
+                        </div>
+
+                        <!-- Fim do teste das cores -->
+
+
+
+                    </div>
+                    <!--'Fim Botão Muda cor de cabeçalhos '-->
+
+
+
+
+<!--Novos menus de cabeçalho, fundo, conteudo-->
+<input type="radio" name="editaCor" value="cabecalho" class="editarCores"/>Cabeçalho
+<input type="radio" name="editaCor" value="fundo" class="editarCores"/>Fundo
+<input type="radio" name="editaCor" value="conteudo" class="editarCores"/>Conteudo
+
+</br>
+<div class="RadioCores">
+  <input type="radio" name="Cor" id="corBranco" value="white" class="cores"/>
+<label for="corBranco"></label>
+
+ <input type="radio" name="Cor" id="corPreto" value="black" class="cores"/>
+<label for="corPreto"></label>
+
+
+<input type="radio" name="Cor" id="corVerde" value="green" class="cores"/>
+<label for="corVerde"></label>
+
+<input type="radio" name="Cor" id="corRoxo" value="purple" class="cores"/>
+<label for="corRoxo"></label>
+
+    <input type="radio" name="Cor" id="corVermelho" value="red" class="cores"/>
+<label for="corVermelho"></label>
+
+ <input type="radio" name="Cor" value="yellow" id="corAmarelo" class="cores"/>
+ <label for="corAmarelo"></label>
+
+ <input type="radio" name="Cor" id="corAzul" value="blue" class="cores"/>
+ <label for="corAzul"></label>
+
+<input type="radio" name="Cor" value="pink" id="corRosa" class="cores"/>
+ <label for="corRosa"></label>
+</div>
+<!--Fim dos novos menus de cabeçalho, fundo, conteudo-->
+
+
+
+
+
+                    <!--'Botão Funcionalidade -> muda de cor Fundo '-->
+                    <div class="btn_geral" id="btn_mudaCorFundo">
+                        <div class="btn_particular">
+                            <!--Mensagem que aparece no icon de informação-->
+                            <div class="info">
+                                <span data-tooltip="Esta funcionalidade permite que o utilizador mude a cor dos fundos"
+                                    data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+                            </div>
+                            <!--Fim de mensagem que aparece no icon de informação-->
+                            <!--Visto a verde que aparece quando a funcionalidade está ativa-->
+                            <div class="check" id="mudaCorFundo">
+                                <span>
+                                    <img src="https://media.istockphoto.com/vectors/checkmark-icon-check-mark-vector-isolated-illustration-vector-id1205148147?k=20&m=1205148147&s=612x612&w=0&h=6WoITHTxFwIBVnfODxsh7wAzU3-AZFkg0YZ5U_8COqw="">
+       </span>
+    </div>
+ <!--Fim do visto a verde que aparece quando a funcionalidade está ativa-->
+
+
+    </div>
+ 
+<!--Imagem do botão
+<div class=" btn_imagem">
+                                    <img
+                                        src="https://w7.pngwing.com/pngs/279/877/png-transparent-hyperlink-computer-icons-link-text-logo-number.png">
+                            </div>
+                            Fim da imagem do botão-->
+
+
+                            <!-- Início do teste das cores
+<div class="AdjustColorFundo" id="AdjustColorFundo"> -->
+                            <div id="AdjustColorFundo">
+                                <p style="font-size: 10px;">Fundo</p>
+                            </div>
+
+
+                            <div class="input-color">
+                                <div class="color-box" style="background-color: #FF850A;"></div>
+                                <!-- Replace "#FF850A" to change the color -->
+                            </div>
+                            <!-- Fim do teste das cores -->
+
+
+
+                        </div>
+                        <!--'Fim Botão Muda cor de Fundo '-->
+
+
+
+
+                        <!--'Botão Funcionalidade -> muda de cor Conteudo '-->
+                        <div class="btn_geral" id="btn_mudaCorConteudo">
+                            <div class="btn_particular">
+                                <!--Mensagem que aparece no icon de informação-->
+                                <div class="info">
+                                    <span
+                                        data-tooltip="Esta funcionalidade permite que o utilizador mude a cor do Conteudo"
+                                        data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+                                </div>
+                                <!--Fim de mensagem que aparece no icon de informação-->
+                                <!--Visto a verde que aparece quando a funcionalidade está ativa-->
+                                <div class="check" id="mudaCorConteudo">
+                                    <span>
+                                        <img src="https://media.istockphoto.com/vectors/checkmark-icon-check-mark-vector-isolated-illustration-vector-id1205148147?k=20&m=1205148147&s=612x612&w=0&h=6WoITHTxFwIBVnfODxsh7wAzU3-AZFkg0YZ5U_8COqw="">
+       </span>
+    </div>
+ <!--Fim do visto a verde que aparece quando a funcionalidade está ativa-->
+
+
+    </div>
+ 
+<!--Imagem do botão
+<div class=" btn_imagem">
+                                        <img
+                                            src="https://w7.pngwing.com/pngs/279/877/png-transparent-hyperlink-computer-icons-link-text-logo-number.png">
+                                </div>
+                                Fim da imagem do botão-->
+
+
+                                <!-- Início do teste das cores -->
+                                <div id="AdjustColorConteudo">
+                                    <p style="font-size: 10px;">Conteudo</p>
+                                </div>
+
+
+                                <div class="input-color">
+                                    <div class="color-box" style="background-color: #FF850A;"></div>
+                                    <!-- Replace "#FF850A" to change the color -->
+                                </div>
+                                <!-- Fim do teste das cores -->
+
+
+
+                            </div>
+                            <!--'Fim Botão Muda cor de Conteudo '-->
+
+
+
+
+
+                            <!--'Botão reset funcionalidades '-->
+                            <div class="btn_geral" id="btn_resetall">
+                                <div class="btn_particular">
+                                    <!--Mensagem que aparece no icon de informação-->
+                                    <div class="info">
+
+
+                                        <span data-tooltip="Esta funcionalidade desativa todas as funcionalidades"
+                                            data-tooltip-position="bottom"><i class="fas fa-info"></i></span>
+                                    </div>
+                                    <!--Fim de mensagem que aparece no icon de informação-->
+                                    <!--Visto a verde que aparece quando a funcionalidade está ativa-->
+                                    <div class="check">
+                                        <span>
+                                            <img src="https://media.istockphoto.com/vectors/checkmark-icon-check-mark-vector-isolated-illustration-vector-id1205148147?k=20&m=1205148147&s=612x612&w=0&h=6WoITHTxFwIBVnfODxsh7wAzU3-AZFkg0YZ5U_8COqw="">
+       </span>
+    </div>
+    <!--Fim do visto a verde que aparece quando a funcionalidade está ativa-->
+
+    </div>
+ 
+<!--Imagem do botão-->
+<div class=" btn_imagem">
+                                            <img
+                                                src="https://w7.pngwing.com/pngs/279/877/png-transparent-hyperlink-computer-icons-link-text-logo-number.png">
+                                    </div>
+                                    <!--Fim da imagem do botão-->
+
+                                    <!--Texto da funcionalidade-->
+                                    <div class="texto">
+                                        Desligar Alterações
+                                    </div>
+                                    <!--Fim do texto da funcionalidade-->
+
+                                </div>
+                                <!--'Fim Botão reset funcionalidades '-->
+
+
+
+
+                                <a href="#">UM LINK DE TESTE</a><br>
+                                <a href="#">OUTRO LINK DE TESTE</a><br>
+                                <a href="#">E AINDA OUTRO LINK DE TESTE</a>
+
+                            </div>
+
+
+
+                            <!--<button type="button" id="lupaTotal" style="width: 100px; height: 100px;">Ampliador de Texto (Lupa)</button><br>
+<button type="button" id="lupaParcial" style="width: 100px; height: 100px;">Guia de Leitura</button><br>
+<button type="button"  id="desligaAlteracoes" style="width: 100px; height: 100px;" data-toggle="tooltip" data-placement="bottom" >Desligar Alterações-->
+                            </button><br>
+
+                            <hr class="my-5">
+                            <!--
+    JOAO PLAYGROUND END
+-->
+                        </div>
+                        <!--
+    PAVLO PLAYGROUND BEGIN
+-->
+                        <div class="pavlo-playground" id="pavlo-playground">
+                            <h1>PAVLO</h1>
+                            <div class="col-12">teste</div>
+
+
+                            <!-- INIT PROPRIETARY HTML -->
+                            <!-- BEGIN FERRAMENTA PARA CONTROLAR O TAMANHO DA LETRA NO HTML GERAL -->
+
+
+                            <!-- THE END FERRAMENTA PARA CONTROLAR O TAMANHO DA LETRA NO HTML GERAL -->
+
+                            <!-- BEGIN OUTRA FERRAMENTA-->
+
+                            <!-- THE END OUTRA FERRAMENTA -->
+
+                            <!-- INIT PROPRIETARY HTML -->
+                            <hr class="my-5">
+                        </div>
+                        <!--
+    PAVLO PLAYGROUND END
+-->
+                        <!--
+    BRUNO PLAYGROUND BEGIN
+-->
+
+                        <h1>BRUNO</h1>
+                        <div class="col-12">teste</div>
+                        <div id="bruno" class="col-12 d-flex justify-content-center bruno"></div>
+                        <div class="d-none">Podemos criar Divs extra. sem problema. Desde que não entre em conflito com
+                            as dos
+                            restantes
+                            Devs.</div>
+
+                        <!--
+*
+*
+*
+*
+-->
+
+                        <!-- INIT PROPRIETARY HTML -->
+                        <div class="col-12 d-flex justify-content-center flex-wrap flex-row text-center">
+                            <div class="col-12 h-100">
+                                <textarea placeholder="Clique aqui para ativar o teclado"
+                                    class="h-100 col-8"></textarea>
+
+                            </div>
+                        </div>
+                        <!-- INIT PROPRIETARY HTML -->
+
+
+                        <!--
+*
+*
+*
+*
+-->
+                        <hr class="my-5">
+                        <!--
+    BRUNO PLAYGROUND END
+-->
+                        <!--
+    ANDERSON PLAYGROUND BEGIN
+-->
+                        <h1>ANDERSON</h1>
+                        <div class="col-12">teste</div>
+                        <div id="anderson" class="col-12 d-flex justify-content-center anderson"></div>
+                        <div class="d-none">Água de Côco. áeee! parceiro :D</div>
+                        <!-- TOOTIPBOX accessibility -->
+                        <div id="accessibilityTootipBox">
+                        </div>
+
+                        <!-- REPRODUTOR -->
+                        <div class="col-12 d-flex justify-content-center mb-3">
+                            <a class="btn btn-outline-primary btn-lg" id="btnImageSpeaker" role="button">
+                                Ativar reprodutor de imagem
+                            </a>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mb-3">
+                            <h4>Clique na imagem para ouvir </h4>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg"
+                                style="width: 800px; height: 500px;" alt="Minha Casa" />
+                        </div>
+                        <!-- REPRODUTOR -->
+                        <!-- TRADUTOR -->
+                        <div class="row">
+                            <div class="mt-3 mb-4 col-12 g-3">
+                                <div class="row g-3">
+                                    <div class="col-auto">
+                                        <label for="comboBoxLanguages" class="form-label">Tradutor</label>
+                                        <select class="form-select notranslate" id="comboBoxLanguages">
+                                            <option value="" selected>Selecione o idioma</option>
+                                            <option value="ar">العربية</option>
+                                            <option value="bg">bălgarski</option>
+                                            <option value="ca">català</option>
+                                            <option value="cs">čeština</option>
+                                            <option value="da">dansk</option>
+                                            <option value="de">Deutsch</option>
+                                            <option value="el">ελληνικά</option>
+                                            <option value="en">English (American)</option>
+                                            <option value="en-GB">English (British)</option>
+                                            <option value="en-CA">English (Canadian)</option>
+                                            <option value="en-AU">English (Australian)</option>
+                                            <option value="en-ZA">English (South African)</option>
+                                            <option value="es">Español</option>
+                                            <option value="es-MX">Español (Mexicano)</option>
+                                            <option value="et">eesti keel</option>
+                                            <option value="eu">euskara</option>
+                                            <option value="fi">Suomen kieli</option>
+                                            <option value="fr">Français</option>
+                                            <option value="gl">galego</option>
+                                            <option value="he">עברית</option>
+                                            <option value="hr">hrvatski</option>
+                                            <option value="hu">Magyar</option>
+                                            <option value="it">Italiano</option>
+                                            <option value="ja">日本語</option>
+                                            <option value="ko">한국어</option>
+                                            <option value="lt">lietuvių kalba</option>
+                                            <option value="lv">latviešu valoda</option>
+                                            <option value="nb">Norsk Bokmål</option>
+                                            <option value="nl">Nederlands (Dutch)</option>
+                                            <option value="pl">polski</option>
+                                            <option value="pt">Português (Brasileiro)</option>
+                                            <option value="pt-PT">Português (Europeu)</option>
+                                            <option value="ro">limba română</option>
+                                            <option value="ru">Русский</option>
+                                            <option value="sk">Slovenský jazyk (Slovak)</option>
+                                            <option value="sl">Slovenščina (Slovene)</option>
+                                            <option value="sv">svenska</option>
+                                            <option value="tr">Türkçe</option>
+                                            <option value="uk">Українська</option>
+                                            <option value="zh">繁體中文</option>
+                                            <option value="zh-CN">简体中文</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a class="btn btn-primary" style="margin-top: 2rem; display: none;"
+                                            id="resetTranslate" role="button">Mostrar original</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="google_translate_element" class="d-none"></div>
+                        </div>
+                        <!-- DICIONÁRIO -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-lg" id="btnDicio" role="button">Ativar dicionário</a>
+                        </div>
+                        <h2 class="hasText">Texto para teste do dicionário</h2>
+                        <div class="col-12 d-flex justify-content-center mt-3 ">
+                            <span class="hasText">
+                                A pergunta parece ingênua, mas você sabe o que é um texto? Passamos boa parte de nossos
+                                dias lendo
+                                os mais
+                                diversos textos, interpretando-os e reagindo a eles por meio de novos textos. Desde os
+                                textos mais
+                                corriqueiros, como placas de trânsito ou cumprimentos, até os mais elaborados, como as
+                                obras de arte
+                                ou
+                                tratados científicos, a humanidade lê e escreve textos. Mas, de fato, o que é um texto?
+                            </span>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-lg" id="btnTextSpeaker" role="button">Ativar
+                                reprodutor de texto</a>
+                        </div>
+                        <h2 class="hasText">Texto para teste do dicionário e reprodutor</h2>
+                        <div class="col-12 d-flex justify-content-center mt-3 ">
+                            <span class="hasText">
+                                A pergunta parece ingênua, mas você sabe o que é um texto? Passamos boa parte de nossos
+                                dias
+                                lendo
+                                os mais
+                                diversos textos, interpretando-os e reagindo a eles por meio de novos textos. Desde os
+                                textos mais
+                                corriqueiros, como placas de trânsito ou cumprimentos, até os mais elaborados, como as
+                                obras
+                                de arte
+                                ou
+                                tratados científicos, a humanidade lê e escreve textos. Mas, de fato, o que é um texto?
+                            </span>
+                        </div>
+
+                        <hr class="my-5">
+                        <!--
+    ANDERSON PLAYGROUND END
+-->
+                        <!--
+/
+/
+/               TUDO ORGANIZADO PESSOAL.
+/
+/
+/               BOM TRABALHO !!!! VAMOOOOOOSSSSSSSSSSSS
+/
+/
+/               
+/
+/
+/
+-->
+
+                        <!-- SEMPRE VIRGEM DA DAQUI PRA BAIXO :) -->
+                        <div id="content" class="container-fluid">
+                            <div class="jumbotron text-center bg-light my-5">
+                                <h1>TESTING DOCUMENT</h1>
+                                <h3>Documento gerado para testes</h3>
+                                <lead>contém todas <u><b><small>ou quase todas</small></b></u> as tags de HTML
+                                    necessárias para
+                                    manipulação
+                                </lead>
+                            </div>
+                            <div class="container mb-5">
+                                <div class="col-12">
+                                    <header>
+                                        <nav>
+                                            <p>HEADER</p>
+                                            <menu type="context" id="navmenu">
+                                                <menuitem label="Home" icon="icon.png"> <a href="#">Home</a> </menuitem>
+                                            </menu>
+                                        </nav>
+                                    </header>
+                                    <main>
+                                        <h1> Heading... </h1>
+                                        <h2> Heading... </h2>
+                                        <h3> Heading... </h3>
+                                        <h4> Heading... </h4>
+                                        <h5> Heading... </h5>
+                                        <h6> Heading... </h6>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi
+                                            lacus, auctor
+                                            sit amet
+                                            purus vel, gravida luctus lectus. Aenean rhoncus dapibus enim, sit amet
+                                            faucibus leo
+                                            ornare
+                                            vitae. <br>
+                                            <span> span </span> <b>Bold word</b> <i>italic</i> <em>emphasis</em>
+                                            <mark>mark</mark>
+                                            <small> small </small> <sub> sub </sub> <sup> sup </sup> <u> Statements...
+                                            </u> <abbr title="National Aeronautics and Space Administration">NASA</abbr>
+                                            <strike>
+                                                strikethrough
+                                            </strike> <span><del> deprecated info </del> <ins> new info </ins> </span>
+                                            <s> not
+                                                relevant </s>
+                                            <a href="#link">link</a>
+                                        </p>
+                                        <hr class="my-5">
+                                        <div id="Outer">
+                                            <div id="Inner">
+                                                <div id="Languages"><a href="http://hy.lipsum.com/">Հայերեն</a> <a
+                                                        href="http://sq.lipsum.com/">Shqip</a> <span class="ltr"
+                                                        dir="ltr"><a href="http://ar.lipsum.com/">‫العربية</a></span> <a
+                                                        href="http://bg.lipsum.com/">Български</a> <a
+                                                        href="http://ca.lipsum.com/">Català</a> <a
+                                                        href="http://cn.lipsum.com/">中文简体</a> <a
+                                                        href="http://hr.lipsum.com/">Hrvatski</a> <a
+                                                        href="http://cs.lipsum.com/">Česky</a>
+                                                    <a href="http://da.lipsum.com/">Dansk</a> <a
+                                                        href="http://nl.lipsum.com/">Nederlands</a>
+                                                    <a class="zz" href="http://www.lipsum.com/">English</a> <a
+                                                        href="http://et.lipsum.com/">Eesti</a> <a
+                                                        href="http://ph.lipsum.com/">Filipino</a>
+                                                    <a href="http://fi.lipsum.com/">Suomi</a> <a
+                                                        href="http://fr.lipsum.com/">Français</a>
+                                                    <a href="http://ka.lipsum.com/">ქართული</a> <a
+                                                        href="http://de.lipsum.com/">Deutsch</a>
+                                                    <a href="http://el.lipsum.com/">Ελληνικά</a> <span class="ltr"
+                                                        dir="ltr"><a href="http://he.lipsum.com/">‫עברית</a></span> <a
+                                                        href="http://hi.lipsum.com/">हिन्दी</a> <a
+                                                        href="http://hu.lipsum.com/">Magyar</a>
+                                                    <a href="http://id.lipsum.com/">Indonesia</a> <a
+                                                        href="http://it.lipsum.com/">Italiano</a> <a
+                                                        href="http://lv.lipsum.com/">Latviski</a> <a
+                                                        href="http://lt.lipsum.com/">Lietuviškai</a> <a
+                                                        href="http://mk.lipsum.com/">македонски</a> <a
+                                                        href="http://ms.lipsum.com/">Melayu</a> <a
+                                                        href="http://no.lipsum.com/">Norsk</a> <a
+                                                        href="http://pl.lipsum.com/">Polski</a> <a
+                                                        href="http://pt.lipsum.com/">Português</a> <a
+                                                        href="http://ro.lipsum.com/">Româna</a> <a
+                                                        href="http://ru.lipsum.com/">Pyccкий</a>
+                                                    <a href="http://sr.lipsum.com/">Српски</a> <a
+                                                        href="http://sk.lipsum.com/">Slovenčina</a> <a
+                                                        href="http://sl.lipsum.com/">Slovenščina</a> <a
+                                                        href="http://es.lipsum.com/">Español</a> <a
+                                                        href="http://sv.lipsum.com/">Svenska</a>
+                                                    <a href="http://th.lipsum.com/">ไทย</a> <a
+                                                        href="http://tr.lipsum.com/">Türkçe</a> <a
+                                                        href="http://uk.lipsum.com/">Українська</a> <a
+                                                        href="http://vi.lipsum.com/">Tiếng
+                                                        Việt</a>
+                                                </div>
+                                                <h1>Lorem Ipsum</h1>
+                                                <h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                                                    consectetur,
+                                                    adipisci
+                                                    velit..."</h4>
+                                                <h5>"There is no one who loves pain itself, who seeks after it and wants
+                                                    to have it,
+                                                    simply
+                                                    because it is pain..."</h5>
+                                                <hr>
+                                                <div id="Content">
+                                                    <div class="boxed">
+                                                        <!-- 
+
+
+If you want to use Lorem Ipsum within another program please contact us for details
+on our API rather than parse the HTML below, we have XML and JSON available.
+
+
+ -->
+                                                        <div id="lipsum">
+                                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Donec
+                                                                ligula nisl,
+                                                                malesuada a nibh a, facilisis tempus dolor. Aenean
+                                                                semper justo sed
+                                                                est
+                                                                elementum, eu fermentum sem imperdiet. Aenean maximus
+                                                                vehicula quam,
+                                                                id
+                                                                viverra purus cursus a. In pellentesque euismod magna
+                                                                vitae
+                                                                sagittis. Nullam
+                                                                vel dolor consectetur, aliquet elit in, tempor tellus.
+                                                                Proin id nisl
+                                                                urna.
+                                                                Donec efficitur, risus at finibus auctor, nisi enim
+                                                                dictum odio, et
+                                                                auctor
+                                                                arcu erat non nisi. Pellentesque ac ante quis leo
+                                                                lobortis cursus et
+                                                                eu
+                                                                tortor. Maecenas at massa venenatis, elementum tellus
+                                                                vitae, rhoncus
+                                                                dolor.
+                                                                Ut ac leo at metus lobortis commodo. Proin quis rutrum
+                                                                quam. </p>
+                                                            <p> Etiam vitae luctus lorem. In feugiat, ipsum ac eleifend
+                                                                elementum,
+                                                                augue
+                                                                diam auctor justo, at auctor risus velit non augue. Sed
+                                                                nec lobortis
+                                                                metus,
+                                                                sit amet fermentum risus. Sed hendrerit accumsan urna,
+                                                                vel dapibus
+                                                                mauris
+                                                                blandit ac. Integer convallis nibh elit, nec
+                                                                sollicitudin mi
+                                                                fringilla ut.
+                                                                Etiam hendrerit euismod varius. Praesent sed sapien
+                                                                diam. Sed id
+                                                                ipsum id
+                                                                metus maximus maximus et id eros. Morbi pulvinar
+                                                                scelerisque diam
+                                                                vestibulum
+                                                                tristique. </p>
+                                                            <p> Sed consequat egestas nibh, eu scelerisque massa
+                                                                sollicitudin
+                                                                mattis.
+                                                                Maecenas tempor quam non nisi dignissim scelerisque.
+                                                                Aliquam erat
+                                                                volutpat.
+                                                                Phasellus quis lectus lectus. Nulla tempus justo at diam
+                                                                auctor, nec
+                                                                pharetra sem viverra. Integer gravida dictum felis.
+                                                                Maecenas ac
+                                                                mollis nunc.
+                                                                Donec ornare tortor mauris, viverra viverra massa
+                                                                ultrices in. Donec
+                                                                sit
+                                                                amet tempor ex. Nam vulputate laoreet nisi, in tempus
+                                                                neque. Donec
+                                                                sit amet
+                                                                convallis dui. Vivamus rhoncus neque eget sodales
+                                                                commodo. Nam
+                                                                bibendum
+                                                                ultrices enim, vel porta urna semper vel. </p>
+                                                            <p> Duis dignissim congue dapibus. Donec et lacus tellus.
+                                                                Sed laoreet
+                                                                tempus
+                                                                lorem sed malesuada. Morbi ut pretium est. Nullam semper
+                                                                at dolor ac
+                                                                iaculis. Maecenas lobortis, urna vel accumsan aliquam,
+                                                                ex sapien
+                                                                suscipit
+                                                                lacus, vulputate tincidunt urna lectus vitae velit. Sed
+                                                                venenatis
+                                                                eros
+                                                                tincidunt, mollis urna a, molestie arcu. Integer dictum
+                                                                porta magna,
+                                                                a
+                                                                gravida nunc aliquam non. In porttitor urna augue, quis
+                                                                pulvinar
+                                                                libero
+                                                                egestas nec. Nullam molestie erat sed felis congue, et
+                                                                pharetra
+                                                                augue
+                                                                suscipit. </p>
+                                                            <p> Sed tincidunt mauris ut nibh tempor fringilla. Mauris
+                                                                rhoncus tempor
+                                                                lectus,
+                                                                a venenatis orci semper vel. Orci varius natoque
+                                                                penatibus et magnis
+                                                                dis
+                                                                parturient montes, nascetur ridiculus mus. Aliquam in
+                                                                ligula
+                                                                scelerisque,
+                                                                malesuada enim at, bibendum massa. Cras ac dolor nec sem
+                                                                interdum
+                                                                mattis.
+                                                                Aenean id lobortis ante, quis sodales felis. Quisque
+                                                                venenatis
+                                                                mollis nisl,
+                                                                vitae mattis arcu pulvinar non. Ut eget libero eu quam
+                                                                dictum
+                                                                varius.
+                                                                Interdum et malesuada fames ac ante ipsum primis in
+                                                                faucibus.
+                                                                Pellentesque
+                                                                congue sapien lorem, quis aliquet diam placerat ornare.
+                                                                Proin
+                                                                pharetra
+                                                                ornare ipsum at laoreet. Etiam finibus nulla dapibus
+                                                                tortor cursus
+                                                                finibus.
+                                                                Mauris feugiat risus vitae blandit tincidunt. </p>
+                                                        </div>
+                                                        <div id="generated">Generated 5 paragraphs, 436 words, 2888
+                                                            bytes of <a href="https://www.lipsum.com/"
+                                                                title="Lorem Ipsum">Lorem Ipsum</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="boxed"><a style="text-decoration:none"
+                                                        href="mailto:help@lipsum.com">help@lipsum.com</a><br>
+                                                    <a style="text-decoration:none" target="_blank"
+                                                        href="/privacy.pdf">Privacy
+                                                        Policy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="my-5">
+                                        <time datetime="2020-08-17 08:00">Monday at 8:00 AM</time>
+                                        <ruby>
+                                            <rb> ruby base </rb>
+                                            <rt> annotation </rt>
+                                        </ruby>
+                                        <br>
+                                        <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>CANC</kbd>
+                                    </main>
+                                    <p> This is a <q>short quote</q> </p>
+                                    <blockquote> This instead is a long quote that is going to use a lot of words and
+                                        also cite who
+                                        said
+                                        that. —<cite>Some People</cite> </blockquote>
+                                    <hr class="my-5">
+                                    <h1>LISTS</h1>
+                                    <ol>
+                                        <li>
+                                            <data value="21053">data tag</data>
+                                        </li>
+                                        <li>
+                                            <data value="23452">data tag</data>
+                                        </li>
+                                        <li>
+                                            <data value="42545">data tag</data>
+                                        </li>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                    </ol>
+                                    <ul>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                        <li>List item</li>
+                                    </ul>
+                                    <hr class="my-5">
+                                    <template>
+                                        <h2>Hidden content (after page loaded).</h2>
+                                    </template>
+                                    <div class="row video">
+                                        <video width="" height=""
+                                            src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4"
+                                            controls>
+                                            <track kind="subtitles" src="subtitles_de.vtt" srclang="de">
+                                            <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+                                            <track kind="subtitles" src="subtitles_ja.vtt" srclang="ja"> Sorry, your
+                                            browser doesn't
+                                            support
+                                            HTML5 <code>video</code>, but you can
+                                            download this video from the <a
+                                                href="https://archive.org/details/Popeye_forPresident"
+                                                target="_blank">Internet Archive</a>. </track>
+                                            </track>
+                                            </track>
+                                        </video>
+                                    </div>
+                                    <div class="col-12 video my-5">
+                                        <object data="https://www.dhs.state.il.us/accessibility/tests/flash/video.swf"
+                                            width="" height="" type="application/x-shockwave-flash">
+                                            Please install the Shockwave plugin to watch this movie.
+                                        </object>
+                                    </div>
+                                    <pre>
+
+                                                                             _,'/
+                                                                    _.-''._:
+                                                    ,-:`-.-'    .:.|
+                                                 ;-.''       .::.|
+                    _..------.._  / (:.       .:::.|
+             ,'.   .. . .  .`/  : :.     .::::.|
+         ,'. .    .  .   ./    \ ::. .::::::.|
+     ,'. .  .    .   . /      `.,,::::::::.;\
+    /  .            . /       ,',';_::::::,:_:
+ / . .  .   .      /      ,',','::`--'':;._;
+: .             . /     ,',',':::::::_:'_,'
+|..  .   .   .   /    ,',','::::::_:'_,'
+|.              /,-. /,',':::::_:'_,'
+| ..    .    . /) /-:/,'::::_:',-'
+: . .     .   // / ,'):::_:',' ;
+ \ .   .     // /,' /,-.','  ./
+    \ . .  `::./,// ,'' ,'   . /
+     `. .   . `;;;,/_.'' . . ,'
+        ,`. .   :;;' `:.  .  ,'
+     /   `-._,'  ..  ` _.-'
+    (     _,'``------'' 
+     `--''
+
+    </pre>
+                                    <code> // code tag
+            #include
+            <iostream> using namespace std; </iostream>
+            int main()
+            {
+            cout &lt;&lt;   "Hello World!" &lt;&lt; endl; return 0; } </code>
+                                    <p> <var> variable </var> = 1000; <samp>Traceback (most recent call last):<br>
+                                            NameError: name 'variabl' is not defined</samp> </p>
+                                    <hr class="my-5">
+                                    <h1>TABLES</h1>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Numbers</th>
+                                                <th>Letters</th>
+                                                <th>Colors</th>
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr>
+                                                <td>123</td>
+                                                <td>ABC</td>
+                                                <td>RGB</td>
+                                            </tr>
+                                        </tfoot>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>A</td>
+                                                <td>Red</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>B</td>
+                                                <td>Green</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>C</td>
+                                                <td>Blue</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr class="my-5">
+                                    <p> A <dfn>definition</dfn> is an explanation of the meaning of a word or phrase.
+                                    </p>
+                                    <details>
+                                        <summary>Summary of content below</summary>
+                                        <p>Content 1</p>
+                                        <p>Content 2</p>
+                                        <p>Content 3</p>
+                                        <p>Content 4</p>
+                                    </details>
+                                    <section>
+                                        <h1>Content</h1>
+                                        <p>Informations about content.</p>
+                                    </section>
+                                    <progress value="33" max="100"></progress>
+                                    <meter value="11" min="0" max="45" optimum="40">25 out of 45</meter>
+                                    <p> 2+2 =
+                                        <output>4</output>
+                                    </p>
+                                    <select>
+                                        <optgroup label="Choice [1-3]">
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </optgroup>
+                                        <optgroup label="Choice [4-6]">
+                                            <option value="4">Four</option>
+                                            <option value="5">Five</option>
+                                            <option value="6">Six</option>
+                                        </optgroup>
+                                    </select>
+                                    <div>
+                                        <div>
+                                            <p> div &gt; div &gt; p </p>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                                <svg width="100" height="100">
+                                    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                                </svg>
+                                <div class="col-12 d-flex justify-content-center flex-wrap flex-row my-5">
+                                    <textarea placeholder="Write something in here" class="w-100" id="textarea"
+                                        name="textarea" rows="4" cols="50">
+
+
+    </textarea>
+                                </div>
+                                <audio controls> I'm sorry. You're browser doesn't support HTML5 <code>audio</code>.
+                                    <source src="https://archive.org/download/ReclaimHtml5/ReclaimHtml5.ogg"
+                                        type="audio/ogg">
+                                    <source src="https://archive.org/download/ReclaimHtml5/ReclaimHtml5.mp3"
+                                        type="audio/mpeg">
+                                </audio>
+                                <p>This is a recording of a talk called <cite>Reclaim HTML5</cite> which was orinally
+                                    delieved in
+                                    Vancouver at a <a href="http://www.meetup.com/vancouver-javascript-developers/"
+                                        taget="_blank">Super
+                                        VanJS Meetup</a>. It is hosted by <a
+                                        href="https://archive.org/details/ReclaimHtml5" target="_blank">The Internet
+                                        Archive</a> and licensed under <a
+                                        href="http://creativecommons.org/licenses/by/3.0/legalcode" target="_blank">CC
+                                        3.0</a>.</p>
+                                <iframe
+                                    src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A67HxeUADW4H3ERfaPW59ma?si=PogFcGg9QqapyoPbn2lVOw"
+                                    width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                                <article>
+                                    <header>
+                                        <h2>Title of Article</h2>
+                                        <span>by Arthur T. Writer</span>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat
+                                        sollicitudin nisi,
+                                        at
+                                        convallis nunc semper et. Donec ultrices odio ac purus facilisis, at mollis urna
+                                        finibus.
+                                    </p>
+                                    <figure> <img src="https://picsum.photos/500/300" alt="placeholder-image">
+                                        <figcaption> Caption.</figcaption>
+                                    </figure>
+                            </div>
+                            <footer>
+                                <dl>
+                                    <dt>Published</dt>
+                                    <dd>17 August 2020</dd>
+                                    <dt>Tags</dt>
+                                    <dd>Sample Posts, html example</dd>
+                                </dl>
+                            </footer>
+                            </article>
+                            <form>
+                                <fieldset>
+                                    <legend>Personal Information</legend>
+                                    <label for="name">Name</label>
+                                    <br>
+                                    <input name="name" id="name">
+                                    <br>
+                                    <label for="dob"> Date of Birth </label>
+                                    <br>
+                                    <input name="dob" id="dob" type="date">
+                                </fieldset>
+                            </form>
+                            <aside>
+                                <p> P inside ASIDE tag </p>
+                            </aside>
+                            <map name="shapesmap">
+                                <area shape="rect" coords="29,32,230,215" href="#square" alt="Square">
+                                <area shape="circle" coords="360,130,100" href="#circle" alt="Circle">
+                            </map>
+                            <img src="https://picsum.photos/100" alt="placeholder-image">
+                            <form action="" method="get">
+                                <label for="browser">Choose your browser from the list:</label>
+                                <input list="browsers" name="browser" id="browser">
+                                <datalist id="browsers">
+                                    <option value="Edge"></option>
+                                    <option value="Firefox"></option>
+                                    <option value="Chrome"></option>
+                                    <option value="Opera"></option>
+                                    <option value="Safari"> </option>
+                                </datalist>
+                                <input type="submit">
+                            </form>
+                            <footer>
+                                <address>
+                                    relevant contacts <a href="mailto:mail@example.com">mail</a>.
+                                </address>
+                                <div> created by <a href="https://blazardsky.space">@blazardsky</a></div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <!-- SEMPRE VIRGEM DA DAQUI PRA CIMA =) -->
+
+
+                <!-- INIT SCRIPTS -->
+                <script src="https://translate.google.com/translate_a/element.js?cb=translateInit"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"
+                    integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+                    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"
+                    integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+<script src="api/main.min.js"></script>
+</html>
